@@ -1,0 +1,40 @@
+a{
+    margin-right: 10px;
+} 
+
+img{
+    max-width: 100%;
+}
+
+.entry-information{
+    display: flex;
+}
+
+.entry-information-text{
+    width: 50%;
+}
+
+.cabinet-inf{
+    display: flex;
+}
+
+.cabinet-inf-img{
+    max-width: 50%;
+}
+
+.features-wrapper{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-container{
+    width: 400px;
+}
+
+
+
+
+
+
