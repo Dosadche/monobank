@@ -26,11 +26,39 @@ img{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .feature-container{
-    width: 400px;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.fop-inst-list{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.fop-inst-element{
+    width: 350px;
+    margin-right: 50px;
+}
+
+th{
+    border: 1px solid black;
+}
+
+.get-card-wrapper{
+    display: flex;
+}
+
+.get-card-text{
+    width: 50%;
+}
+
+.get-card-note{
+    border-left: 3px solid black;
 }
 
 
