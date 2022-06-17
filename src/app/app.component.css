@@ -66,10 +66,11 @@ input::placeholder{
 
 .input-form{
     display: flex;
+    padding-top: 30px;
 }
 
 .button-fop-container{
-    width: 288px;
+    width: 248px;
     height: 56px;
 
     display: flex;
@@ -181,10 +182,55 @@ input::placeholder{
 
 .cabinet-inf{
     display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-.cabinet-inf-img{
-    max-width: 50%;
+#cabinet-img{
+    width: 552px;
+    padding-left: 74px;
+}
+
+.cabinet-inf-text{
+    width: 496px;
+    padding-left: 74px;
+
+}
+
+.button-cab-container{
+    width: 248px;
+    height: 56px;
+
+    margin-top: 60px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 16px;
+
+    background-color: #6945DE;
+}
+
+.button-cab{
+    border: none;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 16px;
+    background-color: inherit;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    color: white;
+}
+
+.button-cab:hover{
+    cursor: pointer;
+}
+
+.features{
+    padding-left: 74px;
 }
 
 .features-wrapper{
@@ -194,8 +240,26 @@ input::placeholder{
 }
 
 .feature-container{
-    width: 300px;
+    width: 20%;
     margin-right: 100px;
+    margin-top: 72px;
+    padding-right: 58px;
+}
+
+.feature-png-container{
+    display:flex;
+
+    background-color: black;
+
+    height: 70px;
+    width: 70px;
+
+    border-radius: 42%;
+}
+
+.feature-png{
+    margin: auto;
+    height: 32px;
 }
 
 .fop-inst-list{
